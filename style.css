@@ -1,0 +1,46 @@
+
+html { box-sizing: border-box; }
+
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin: 2rem;
+}
+.kontakty {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border-radius: 0.5rem;
+}
+.kontejner {
+    width: 22%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem 2rem 2rem 0;
+    border-radius: 0.5rem;
+}
+.hanka {
+    margin-left: 2rem;
+}
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+p, h2 {
+    text-align: center;
+}
+.ikony {
+    display: flex;
+    min-width: 150px;
+    justify-content: space-evenly;
+}
+.ikony img {
+    width: 35px;
+    height: 35px;
+}
